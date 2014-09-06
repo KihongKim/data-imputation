@@ -11,8 +11,8 @@ library(CALIBERrfimpute)
 library(missForest)
 library(reshape)
 
-### connect to the PostgreSQL database
-conn <- dbConnect(PostgreSQL(), host="sapporo.usp.pdx.edu", user="smartdata", password="Smartaa00", dbname="portland")
+### connect to the PostgreSQL database on the sapporo server
+conn <- dbConnect(PostgreSQL(), host="sapporo.usp.pdx.edu", user="smartdata", password="xxx", dbname="portland")
 
 ### read taxlots20XX
 taxlots2011 <- dbReadTable(conn, c("rlis","taxlots2011"))
