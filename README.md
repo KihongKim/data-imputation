@@ -1,7 +1,7 @@
 data-imputation
 ===============
 
-# Imputing Missing Land Use Data: A Multiple Imputation by Chained Equations (MICE) Approach Based on Recursive Partitioning
+## Imputing Missing Land Use Data: A Multiple Imputation by Chained Equations (MICE) Approach Based on Recursive Partitioning
 
 Kihong Kim and Liming Wang, Ph.D.
 
