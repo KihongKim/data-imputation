@@ -39,7 +39,7 @@ createDS <- function(taxlots) {
 	return(ds)
 }
 # connect to the PostgreSQL database where taxlot tables are stored
-conn <- dbConnect(PostgreSQL(), host="sapporo.usp.pdx.edu", user="smartdata", password="Smartaa00", dbname="portland")
+conn <- dbConnect(PostgreSQL(), host="sapporo.usp.pdx.edu", user="smartdata", password="XXX", dbname="portland")
 taxlots2011 <- dbReadTable(conn, c("rlis","taxlots2011"))
 # create a data set to perform MICE
 createDS(taxlots2011)
